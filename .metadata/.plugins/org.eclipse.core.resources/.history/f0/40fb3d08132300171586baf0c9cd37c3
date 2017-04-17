@@ -1,0 +1,49 @@
+package chapter_02;
+
+public class SwapTest {
+
+	public static void main(String[] args) {
+		
+		int a = 10 ;
+		int b = 20 ; 
+		
+		System.out.println(a+", "+b);
+		Swap(a,b);
+		System.out.println(a+", "+b);
+
+	}
+	
+	public static void Swap(int value1, int value2){
+		int temp = value1;
+		value1=value2;
+		value2=temp;
+	}
+
+}
+
+
+//package chapter_02;
+//
+//public class SwapTest {
+//
+//	public static void main(String[] args) {
+//		
+//		int a = 10 ;
+//		int b = 20 ; 
+//		
+//		System.out.println(a+", "+b);
+//		//Swap(a,b);
+//		int temp = a;
+//		a = b; 
+//		b = temp;
+//		System.out.println(a+", "+b);
+//
+//	}
+//	
+//	public static void Swap(int value1, int value2){
+//		int temp = value1;
+//		value1=value2;
+//		value2=temp;
+//	}
+//
+//}

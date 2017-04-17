@@ -1,0 +1,9 @@
+
+public class GoodsApp2 {
+
+	public static void main(String[] args) {
+		Goods g1 = new Goods()
+
+	}
+
+}

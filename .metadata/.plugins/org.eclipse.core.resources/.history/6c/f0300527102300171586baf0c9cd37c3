@@ -1,0 +1,7 @@
+package chapter_02;
+
+import mypackage.Goods;
+
+public class SpecialGoods extends Goods {
+
+}
